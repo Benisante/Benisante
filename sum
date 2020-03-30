@@ -1,0 +1,6 @@
+function sumTwoSmallestNumbers(numbers) {  
+  var [ a, b ] = numbers.sort((a, b) => a - b)
+  return a + b
+}
+
+sumTwoSmallestNumbers([5, 19, 12, 8, 22])
